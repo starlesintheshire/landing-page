@@ -25,3 +25,14 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+/* Header End */
+
+/* Footer */
+.footer {
+    color: #e5e7eb;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
