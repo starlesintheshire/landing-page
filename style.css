@@ -1,4 +1,5 @@
-.header, .footer {
+/* Header */
+.header, .footer, .section-one {
     background-color: #1f2937;
 }
 
@@ -25,8 +26,41 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
-/* Header End */
 
+/* Header End */
+/* Hero */
+
+.section-one {
+    display: flex;
+}
+
+.hero {
+
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-img {
+    width: 50%;
+}
 /* Footer */
 .footer {
     color: #e5e7eb;
@@ -36,3 +70,4 @@ a {
     align-items: center;
     height: 50px;
 }
+/* Footer End */
