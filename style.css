@@ -32,6 +32,8 @@ a {
 
 .section-one {
     display: flex;
+    justify-content: center;
+    padding: 100px 100px;
 }
 
 .hero {
@@ -61,8 +63,10 @@ button {
     border: none;
 }
 
-.hero-img {
-    width: 50%;
+.section-one img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
 }
 /* Hero End */
 /* section-three */
