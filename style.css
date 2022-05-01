@@ -65,6 +65,26 @@ button {
     width: 50%;
 }
 /* Hero End */
+/* section-three */
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.person {
+    color: #1f2937;
+    align-items: flex-end;
+}
 /* section-four */
 .container {
     background-color: #3882f6;
