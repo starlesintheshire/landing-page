@@ -51,18 +51,18 @@ header h1 {
     
 }
 
-.hero {
+.section-hero {
     background-color: #1f2937;
     margin: 0;
     padding: 100px 200px;
     display: flex;
 }
 
-.hero .container {
+.section-hero .container {
     margin-right: 40px;
 }
 
-.hero h2 {
+.section-hero h2 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
@@ -90,8 +90,39 @@ header h1 {
 
 /* sizing properties are not working */
 
-.hero img {
+.section-hero img {
     max-width: 400pxcc;
     height: 300px;
     flex: 0 0 auto;
+}
+
+.section-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-cards h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.section-cards .container {
+    display: flex;
+    /* gap: 3em;
+    Trying to get the spacing right. justfiy-content not working */
+}
+
+.section-cards img {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 250px;
 }
