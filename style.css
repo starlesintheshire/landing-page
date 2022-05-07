@@ -60,6 +60,8 @@ header h1 {
 
 .section-hero .container {
     margin-right: 40px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .section-hero h2 {
