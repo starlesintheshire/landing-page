@@ -127,10 +127,25 @@ header h1 {
 
 .section-quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 50px 250px 50px 250px;
 }
 
 blockquote {
     color: #0a0d12;
     font-size: 36px;
     font-weight: lighter;
+    margin: 0px;
+}
+
+.author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 0px;
+    padding-right: 25px;
 }
