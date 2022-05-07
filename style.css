@@ -131,7 +131,7 @@ header h1 {
     flex-direction: column;
     align-items: center;
     margin: 0px;
-    padding: 50px 250px 50px 250px;
+    padding: 50px 290px;
 }
 
 blockquote {
@@ -147,5 +147,5 @@ blockquote {
     font-weight: bold;
     align-self: flex-end;
     margin: 0px;
-    padding-right: 25px;
+    padding-right: 40px;
 }
