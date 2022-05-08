@@ -104,6 +104,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .section-cards h2 {
@@ -114,13 +115,13 @@ button:hover {
 
 .section-cards .container {
     display: flex;
-    /* gap: 3em;
-    Trying to get the spacing right. justfiy-content not working */
+    gap: 3em;
 }
 
 .section-cards img {
     border: 3px solid #3882f6;
     border-radius: 15px;
+    max-width: 200px;
 }
 
 .card {
@@ -128,7 +129,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .section-quote {
