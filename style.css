@@ -189,4 +189,12 @@ blockquote {
 .btn-cta {
     border: 2px solid white;
     padding: .5em;
-} 
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
