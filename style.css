@@ -74,13 +74,15 @@ header h1 {
 
 .btn {
     background-color: #3882f6;
-    color: #f9faf8;
     border: none;
-    padding: .5em 0;
+    padding: .5em .3em;
     border-radius: 8px;
 }
 
 .btn a {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 1.1em;
     text-decoration: none;
     margin: 0;
     padding: 9px 20px;
